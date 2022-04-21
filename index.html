@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Wordle - PUC Campinas</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="jquery.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="title">Wordle</div>
+    <div class="option-left">
+    </div>
+  </header>
+
+  <div id="grade-ext">
+    <div id="grade"></div>
+  </div>
+
+  <div id="keyboard">
+    <div class="row">
+      <button value="q" onclick="pressButton(value)">q</button>
+      <button value="w" onclick="pressButton(value)">w</button>
+      <button value="r" onclick="pressButton(value)">r</button>
+      <button value="e" onclick="pressButton(value)">e</button>
+      <button value="t" onclick="pressButton(value)">t</button>
+      <button value="y" onclick="pressButton(value)">y</button>
+      <button value="u" onclick="pressButton(value)">u</button>
+      <button value="i" onclick="pressButton(value)">i</button>
+      <button value="o" onclick="pressButton(value)">o</button>
+      <button value="p" onclick="pressButton(value)">p</button>
+    </div>
+    
+    <div class="row">
+      <button value="s" onclick="pressButton(value)">s</button>
+      <button value="d" onclick="pressButton(value)">d</button>
+      <button value="f" onclick="pressButton(value)">f</button>
+      <button value="a" onclick="pressButton(value)">a</button>
+      <button value="g" onclick="pressButton(value)">g</button>
+      <button value="h" onclick="pressButton(value)">h</button>
+      <button value="j" onclick="pressButton(value)">j</button>
+      <button value="k" onclick="pressButton(value)">k</button>
+      <button value="l" onclick="pressButton(value)">l</button>
+    </div>
+    
+    <div class="row">
+      <button value="enter" onclick="pressButton(value)">enter</button>
+      <button value="z" onclick="pressButton(value)">z</button>
+      <button value="x" onclick="pressButton(value)">x</button>
+      <button value="c" onclick="pressButton(value)">c</button>
+      <button value="v" onclick="pressButton(value)">v</button>
+      <button value="b" onclick="pressButton(value)">b</button>
+      <button value="n" onclick="pressButton(value)">n</button>
+      <button value="m" onclick="pressButton(value)">m</button>
+      <button value="erase" onclick="pressButton(value)" style="font-size:24px"> <i class="material-icons">backspace</i></button>
+    </div>
+  </div>
+
+<script src="gradesAndButton.js"></script>
+</body>
+
+</html>

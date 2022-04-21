@@ -1,0 +1,65 @@
+header .title {
+    font-family: 'nyt-karnakcondensed';
+    font-weight: 700;
+    font-size: 37px;
+    line-height: 100%;
+    letter-spacing: 0.01em;
+    text-align: center;
+    left: 0;
+    right: 0;
+}
+
+div {
+    display: block;
+}
+
+header {
+  border-bottom: 1px solid #d3d6da;
+}
+
+.unidade {
+  width: 60px;
+  height: 60px;
+  border: 2px solid rgb(201, 201, 201);
+  display: inline-block;
+  margin: 5px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#grade-ext {
+  text-align: center;
+  margin-top: 5em;
+}
+
+#keyboard {
+  margin: 0 8px;
+  user-select: none;
+  margin-top: 5vh;
+}
+
+.row {
+  display: flex;
+  width: 50%;
+  margin: 0 auto 8px;
+  touch-action: manipulation;
+}
+
+button {
+  font-family: inherit;
+  font-weight: bold;
+  border: 0;
+  padding: 0;
+  margin: 0 6px 0 0;
+  height: 58px;
+  border-radius: 4px;
+  cursor: pointer;
+  user-select: none;
+  background-color: rgb(182, 182, 182);
+  color: black;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+}
