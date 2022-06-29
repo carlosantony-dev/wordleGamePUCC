@@ -76,7 +76,7 @@ function recebePalavra(contIPal, resultServ, unidade){
 
 function enviarPalavra(palavrasDig){
     var settings = {
-        "url": "https://wordle-blecha.herokuapp.com/send",
+        "url": "https://wordlegamepucc.herokuapp.com/send",
         "method": "POST",
         "timeout": 0,
         "headers": {
