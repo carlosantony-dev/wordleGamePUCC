@@ -4,6 +4,6 @@ Neste jogo você precisa adivinhar a palavra do dia, contendo 5 letras!
 
 DICAS:
 
--> Caso o quadrado fique verde, você acertou a posição e a letra.
--> Caso o quadrado fique amarelo, é porque a letra é correta, mas está na posição errada.
--> Caso fique cinza, você errou a letra!.
+-> Caso o quadrado fique verde, você acertou a posição e a letra.\n
+-> Caso o quadrado fique amarelo, é porque a letra é correta, mas está na posição errada.\n
+-> Caso fique cinza, você errou a letra!.\n
